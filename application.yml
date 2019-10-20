@@ -1,0 +1,14 @@
+spring: 
+  profiles: 
+    action: 
+      - dev 
+---
+spring: 
+  profiles: dev 
+  application: 
+    name: microservicecloud-config-atguigu-dev      #开发环境
+---
+spring: 
+  profiles: test
+  application: 
+    name: microservicecloud-config-atguigu-test     #测试环境
